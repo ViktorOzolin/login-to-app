@@ -25,8 +25,7 @@ useEffect(() => {
                 <ul>
                     {contacts.map(contact => <li key={contact.id}>
                        Имя: {contact.name}<br/>
-                      Номер :{contact.phone}<br/>
-                      Email: {contact.email}
+                      Номер :{contact.phone}
                     </li>)}
                 </ul>
             </>}
